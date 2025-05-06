@@ -2,54 +2,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NovaHope Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>NovaHope</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #0d0d0d;
+            padding: 20px 0;
+        }
+        nav a {
+            color: #ffd700;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .logo {
+            width: 200px;
+            margin: 20px auto 10px;
+        }
+        .title {
+            font-size: 48px;
+            color: #ffa500;
+            margin: 10px 0;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #ff4500;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+        section {
+            margin: 40px 20px;
+        }
+        h2 {
+            color: #ffd700;
+        }
+        .btn {
+            background-color: #ff7f00;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>NovaHope</h1>
-        <p id="slogan">A new hope rises from the ashes.</p>
         <nav>
-            <a href="#about">About</a>
-            <a href="#tokenomics">Tokenomics</a>
-            <a href="#contract">Contract</a>
-            <a href="#contact">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Tokenomics</a>
+            <a href="#">Contract</a>
+            <a href="#">Impacto Real</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
+    <img src="logo.png" class="logo" alt="NovaHope Logo">
+    <div class="title">NovaHope</div>
+    <div class="subtitle">A new hope rises from the ashes.</div>
 
-    <main>
-        <section id="about">
-            <h2>Our Mission</h2>
-            <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
-        </section>
-        <section id="tokenomics">
-            <h2>Tokenomics</h2>
-            <ul>
-                <li>Total Supply: 1,000,000,000,000,000</li>
-                <li>Network: Binance Smart Chain (BSC)</li>
-                <li>Symbol: $NVHP</li>
-            </ul>
-        </section>
-        <section id="contract">
-            <h2>Smart Contract</h2>
-            <p>0x7FC0bB0243B3AcbDfbaf16ebdEe227e711A3e45c</p>
-            <a href="#" class="btn">Buy in Presale</a>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: novahopeproject@proton.me</p>
-            <p>Follow us:</p>
-            <ul>
-                <li>Twitter: @NovaHopeToken</li>
-                <li>Instagram: @NovaHopeOfficial</li>
-            </ul>
-        </section>
-    </main>
+    <section>
+        <h2>Our Mission</h2>
+        <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 NovaHope Project</p>
-    </footer>
+    <section>
+        <h2>Tokenomics</h2>
+        <p>Total Supply: 1,000,000,000,000,000<br>
+        Network: Binance Smart Chain (BSC)<br>
+        Symbol: $NVHP</p>
+    </section>
+
+    <section>
+        <h2>Smart Contract</h2>
+        <p>0x7FCC0B02483BAcbDfba1f6eb1EE227e711A345c</p>
+        <button class="btn">Buy in Presale</button>
+    </section>
+
+    <section>
+        <h2>Impacto Real</h2>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+    </section>
 </body>
 </html>
