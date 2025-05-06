@@ -6,12 +6,18 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url('marca_agua.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
-    background-color: #0d0d0d;
-}
-nav {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 nav a {
     color: #ffd700;
@@ -20,14 +26,8 @@ nav a {
     font-size: 18px;
     font-weight: bold;
 }
-.header-img {
-    width: 100%;
-    max-width: 1000px;
-    display: block;
-    margin: auto;
-}
 .logo {
-    width: 160px;
+    width: 180px;
     margin: 20px auto 10px;
 }
 .title {
@@ -75,6 +75,6 @@ h2 {
 footer {
     margin-top: 50px;
     padding: 20px;
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
