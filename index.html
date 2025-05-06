@@ -16,6 +16,9 @@
         header {
             background-color: #0d0d0d;
             padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
         nav a {
             color: #ffd700;
@@ -55,46 +58,68 @@
             cursor: pointer;
             margin-top: 15px;
         }
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background-color: #111;
+            color: white;
+        }
+        .social-icons img {
+            width: 32px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">About</a>
-            <a href="#">Tokenomics</a>
-            <a href="#">Contract</a>
-            <a href="#">Impacto Real</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#contract">Contract</a>
+            <a href="#impact">Impacto Real</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+
     <img src="logo.png" class="logo" alt="NovaHope Logo">
     <div class="title">NovaHope</div>
     <div class="subtitle">A new hope rises from the ashes.</div>
 
-    <section>
+    <section id="about">
         <h2>Our Mission</h2>
         <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
     </section>
 
-    <section>
+    <section id="tokenomics">
         <h2>Tokenomics</h2>
         <p>Total Supply: 1,000,000,000,000,000<br>
         Network: Binance Smart Chain (BSC)<br>
         Symbol: $NVHP</p>
     </section>
 
-    <section>
+    <section id="contract">
         <h2>Smart Contract</h2>
         <p>0x7FCC0B02483BAcbDfba1f6eb1EE227e711A345c</p>
         <button class="btn">Buy in Presale</button>
     </section>
 
-    <section>
+    <section id="impact">
         <h2>Impacto Real</h2>
+        <p>Coming soon: Real actions to help people in need — funded by NovaHope, not donations.</p>
     </section>
 
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
+        <div class="social-icons">
+            <a href="https://t.me/novahope" target="_blank"><img src="telegram.png" alt="Telegram"></a>
+            <a href="https://twitter.com/novahope" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com/novahope" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
     </section>
+
+    <footer>
+        &copy; 2025 NovaHope. All rights reserved.
+    </footer>
 </body>
 </html>
