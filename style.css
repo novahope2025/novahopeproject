@@ -1,67 +1,52 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background: #111 url('img/marca_agua.png') center center fixed;
-    background-size: cover;
-    color: white;
     margin: 0;
     padding: 0;
+    background-color: #111;
+    color: #ffc107;
+    font-family: Arial, sans-serif;
 }
-header {
-    background-color: #000;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-nav a {
-    color: yellow;
-    text-decoration: none;
-}
-main {
+.container {
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
 }
-h2 {
-    color: yellow;
-}
-p {
-    color: white;
-}
-.redes img {
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-.redes a {
-    display: block;
-    margin: 10px 0;
-    color: white;
-    text-decoration: none;
-}
-.btn-preventa {
-    display: inline-block;
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-footer {
+header {
     text-align: center;
-    padding: 10px;
-    background-color: #000;
+}
+.logo {
+    height: 80px;
+}
+.subtitle {
+    color: #ff5722;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffc107;
+}
+.presale-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    margin-top: 40px;
+}
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+#contact li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+#contact img {
+    height: 20px;
+    margin-right: 10px;
 }
