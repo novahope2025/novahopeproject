@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaHope | A New Hope Rises</title>
+    <title>NovaHope | Crypto with Purpose</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header con Logo y Menú -->
+    <!-- Header (Logo + Menú) -->
     <header>
         <div class="logo">
-            <img src="logo-novahope.png" alt="NovaHope Logo">
+            <img src="assets/logo.png" alt="NovaHope Logo">
         </div>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#tokenomics">Tokenomics</a></li>
-                <li><a href="#contract">Contract</a></li>
-                <li><a href="#impact">Impacto Real</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#contract">Contract</a>
+            <a href="#impact">Impacto Real</a>
+            <a href="#contact">Contact</a>
         </nav>
         <button class="presale-btn">Buy in Presale</button>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section (Frase épica) -->
     <section class="hero">
         <h1>A new hope rises from the ashes.</h1>
     </section>
@@ -39,50 +37,39 @@
     <!-- Sección Tokenomics -->
     <section id="tokenomics" class="tokenomics">
         <h2>Tokenomics</h2>
-        <div class="tokenomics-grid">
-            <div>
+        <div class="cards-container">
+            <div class="card">
                 <h3>Total Supply</h3>
                 <p>1,000,000,000,000</p>
             </div>
-            <div>
+            <div class="card">
                 <h3>Network</h3>
                 <p>Binance Smart Chain (BSC)</p>
             </div>
-            <div>
+            <div class="card">
                 <h3>Symbol</h3>
                 <p>$NVHP</p>
             </div>
         </div>
     </section>
 
-    <!-- Sección Contract -->
+    <!-- Sección Smart Contract -->
     <section id="contract" class="contract">
         <h2>Smart Contract</h2>
         <div class="contract-address">
             <p id="contract-text">0x7FCC0B02483BAcbDfba16eb1EE227e711A345c</p>
-            <button onclick="copyContract()">Copy</button>
+            <button onclick="copyContract()">Copy Address</button>
         </div>
     </section>
 
-    <!-- Sección Impacto Real -->
-    <section id="impact" class="impact">
-        <h2>Impacto Real</h2>
-        <p>Aquí irán imágenes/ejemplos de acciones sociales.</p>
-    </section>
-
-    <!-- Sección Contacto + Redes Sociales -->
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
+    <!-- Footer (Redes Sociales) -->
+    <footer>
         <div class="social-icons">
             <a href="#"><i class="fab fa-telegram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-discord"></i></a>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2023 NovaHope. All rights reserved.</p>
+        <p>© 2025 NovaHope. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
