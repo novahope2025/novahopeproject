@@ -1,74 +1,85 @@
-
+/* Estilos generales */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0a0a0a;
-  background-image: url('fondo.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a1a;
+    color: #ffffff;
 }
+
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgba(10, 10, 26, 0.9);
 }
-.logo {
-  display: flex;
-  align-items: center;
-}
+
 .logo img {
-  height: 40px;
-  margin-right: 10px;
+    height: 50px;
 }
-.logo span {
-  color: #FFD700;
-  font-size: 26px;
-  font-weight: bold;
+
+nav ul {
+    display: flex;
+    list-style: none;
 }
-nav a {
-  color: #FFD700;
-  margin-left: 20px;
-  text-decoration: none;
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
 }
-main {
-  text-align: center;
-  padding: 40px 20px;
+
+.presale-btn {
+    background: linear-gradient(90deg, #6e45e2, #88d3ce);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
-h1 {
-  font-size: 30px;
-  color: orange;
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero-bg.jpg');
+    background-size: cover;
 }
-h2 {
-  font-size: 24px;
-  color: #FFD700;
+
+/* Estilos de secciones */
+section {
+    padding: 60px 10%;
+    text-align: center;
 }
-ul {
-  list-style: none;
-  padding: 0;
+
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
 }
-button {
-  padding: 12px 20px;
-  font-size: 16px;
-  background-color: orange;
-  color: black;
-  border: none;
-  cursor: pointer;
-  margin-top: 15px;
+
+.contract-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
 footer {
-  text-align: center;
-  padding: 30px 20px;
-}
-footer .social a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  margin: 8px 0;
-}
-footer .social img {
-  width: 20px;
-  vertical-align: middle;
-  margin-right: 8px;
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0a1a;
 }
