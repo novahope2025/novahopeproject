@@ -1,55 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NovaHope</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaHope | A New Hope Rises</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="NovaHope Logo" />
-      <span>NovaHope</span>
-    </div>
-    <nav>
-      <a href="#">Acerca de</a>
-      <a href="#">Tokenomics</a>
-      <a href="#">Contrato</a>
-      <a href="#">Impacto Real</a>
-      <a href="#">Contacto</a>
-    </nav>
-  </header>
+    <!-- Header con Logo y Menú -->
+    <header>
+        <div class="logo">
+            <img src="logo-novahope.png" alt="NovaHope Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#contract">Contract</a></li>
+                <li><a href="#impact">Impacto Real</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="presale-btn">Buy in Presale</button>
+    </header>
 
-  <main>
-    <h1>Una nueva esperanza surge de las cenizas</h1>
-    <section>
-      <h2>Nuestra Misión</h2>
-      <p>NovaHope es un símbolo de resurgimiento. Un token para ayudar a los invisibles, desde el anonimato y con impacto real.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>A new hope rises from the ashes.</h1>
     </section>
-    <section>
-      <h2>Tokenomics</h2>
-      <ul>
-        <li>Suministro total: 1 cuatrillón</li>
-        <li>Red: Binance Smart Chain</li>
-        <li>Símbolo: $NVHP</li>
-      </ul>
+
+    <!-- Sección Mission -->
+    <section id="about" class="mission">
+        <h2>Our Mission</h2>
+        <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
     </section>
-    <section>
-      <h2>Contrato Inteligente</h2>
-      <p>0x7FC0bB0243B3AcbDfbaf16ebdEe227e711A345c</p>
-      <button onclick="alert('La preventa estará disponible pronto')">Compra en Preventa</button>
+
+    <!-- Sección Tokenomics -->
+    <section id="tokenomics" class="tokenomics">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-grid">
+            <div>
+                <h3>Total Supply</h3>
+                <p>1,000,000,000,000</p>
+            </div>
+            <div>
+                <h3>Network</h3>
+                <p>Binance Smart Chain (BSC)</p>
+            </div>
+            <div>
+                <h3>Symbol</h3>
+                <p>$NVHP</p>
+            </div>
+        </div>
     </section>
+
+    <!-- Sección Contract -->
+    <section id="contract" class="contract">
+        <h2>Smart Contract</h2>
+        <div class="contract-address">
+            <p id="contract-text">0x7FCC0B02483BAcbDfba16eb1EE227e711A345c</p>
+            <button onclick="copyContract()">Copy</button>
+        </div>
+    </section>
+
+    <!-- Sección Impacto Real -->
+    <section id="impact" class="impact">
+        <h2>Impacto Real</h2>
+        <p>Aquí irán imágenes/ejemplos de acciones sociales.</p>
+    </section>
+
+    <!-- Sección Contacto + Redes Sociales -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-      <div class="social">
-        <a href="https://instagram.com/novahopeproject"><img src="instagram.png" alt="Instagram" />@novahopeproject</a>
-        <a href="https://tiktok.com/@novahopeofficial"><img src="tiktok.png" alt="TikTok" />@novahopeofficial</a>
-        <a href="https://x.com/Novahopeproject"><img src="twitter.png" alt="Twitter" />@Novahopeproject</a>
-        <a href="https://t.me/novahopecommunity"><img src="telegram.png" alt="Telegram Grupo" />Grupo Telegram</a>
-        <a href="https://t.me/novahopetoken"><img src="telegram.png" alt="Telegram Canal" />Canal Oficial</a>
-      </div>
+        <p>© 2023 NovaHope. All rights reserved.</p>
     </footer>
-  </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
