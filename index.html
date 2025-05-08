@@ -1,18 +1,66 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaHope | Crypto with Purpose</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>NovaHope</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 10px;
+            background-color: #0d0d0d;
+        }
+        nav a {
+            color: #ffd700;
+            margin: 0 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .header-img {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+        section {
+            margin: 40px 20px;
+        }
+        h2 {
+            color: #ffd700;
+        }
+        .btn {
+            background-color: #ff7f00;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .social-icons img {
+            width: 32px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #111;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header (Logo + Menú) -->
     <header>
-        <div class="logo">
-            <img src="assets/logo.png" alt="NovaHope Logo">
-        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#tokenomics">Tokenomics</a>
@@ -20,58 +68,44 @@
             <a href="#impact">Impacto Real</a>
             <a href="#contact">Contact</a>
         </nav>
-        <button class="presale-btn">Buy in Presale</button>
     </header>
 
-    <!-- Hero Section (Frase épica) -->
-    <section class="hero">
-        <h1>A new hope rises from the ashes.</h1>
-    </section>
+    <img src="design-approved.png" alt="NovaHope Approved Design" class="header-img">
 
-    <!-- Sección Mission -->
-    <section id="about" class="mission">
+    <section id="about">
         <h2>Our Mission</h2>
         <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
     </section>
 
-    <!-- Sección Tokenomics -->
-    <section id="tokenomics" class="tokenomics">
+    <section id="tokenomics">
         <h2>Tokenomics</h2>
-        <div class="cards-container">
-            <div class="card">
-                <h3>Total Supply</h3>
-                <p>1,000,000,000,000</p>
-            </div>
-            <div class="card">
-                <h3>Network</h3>
-                <p>Binance Smart Chain (BSC)</p>
-            </div>
-            <div class="card">
-                <h3>Symbol</h3>
-                <p>$NVHP</p>
-            </div>
-        </div>
+        <p>Total Supply: 1,000,000,000,000,000<br>
+        Network: Binance Smart Chain (BSC)<br>
+        Symbol: $NVHP</p>
     </section>
 
-    <!-- Sección Smart Contract -->
-    <section id="contract" class="contract">
+    <section id="contract">
         <h2>Smart Contract</h2>
-        <div class="contract-address">
-            <p id="contract-text">0x7FCC0B02483BAcbDfba16eb1EE227e711A345c</p>
-            <button onclick="copyContract()">Copy Address</button>
+        <p>0x7FCC0B02483BAcbDfba1f6eb1EE227e711A345c</p>
+        <button class="btn">Buy in Presale</button>
+    </section>
+
+    <section id="impact">
+        <h2>Impacto Real</h2>
+        <p>Coming soon: Real actions to help people in need — funded by NovaHope, not donations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="social-icons">
+            <a href="https://t.me/novahope" target="_blank"><img src="telegram.png" alt="Telegram"></a>
+            <a href="https://twitter.com/novahope" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com/novahope" target="_blank"><img src="instagram.png" alt="Instagram"></a>
         </div>
     </section>
 
-    <!-- Footer (Redes Sociales) -->
     <footer>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-telegram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-discord"></i></a>
-        </div>
-        <p>© 2025 NovaHope. All rights reserved.</p>
+        &copy; 2025 NovaHope. All rights reserved.
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
