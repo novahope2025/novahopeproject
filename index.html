@@ -1,111 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>NovaHope</title>
-    <style>
-        body {
-            background-color: #0d0d0d;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            padding: 10px;
-            background-color: #0d0d0d;
-        }
-        nav a {
-            color: #ffd700;
-            margin: 0 12px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .header-img {
-            width: 100%;
-            max-width: 800px;
-            margin: 20px auto;
-            display: block;
-        }
-        section {
-            margin: 40px 20px;
-        }
-        h2 {
-            color: #ffd700;
-        }
-        .btn {
-            background-color: #ff7f00;
-            color: white;
-            padding: 15px 30px;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 15px;
-        }
-        .social-icons img {
-            width: 32px;
-            margin: 0 10px;
-            vertical-align: middle;
-        }
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #111;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaHope | Renace la Esperanza</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#tokenomics">Tokenomics</a>
-            <a href="#contract">Contract</a>
-            <a href="#impact">Impacto Real</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <div class="background-watermark"></div>
+  <header>
+    <img src="assets/logo.png" alt="NovaHope Logo" class="logo" />
+    <h1>NovaHope</h1>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#impact">Impacto</a>
+      <a href="#contract">Contrato</a>
+      <a href="#social">Redes</a>
+    </nav>
+  </header>
 
-    <img src="design-approved.png" alt="NovaHope Approved Design" class="header-img">
+  <section class="hero">
+    <h2>Una nueva esperanza para quienes han caído</h2>
+    <p>Token con propósito real, sin donaciones externas.</p>
+  </section>
 
-    <section id="about">
-        <h2>Our Mission</h2>
-        <p>NovaHope is more than a token. It is a movement of rebirth, compassion, and impact.</p>
-    </section>
+  <section id="about">
+    <h3>¿Qué es NovaHope?</h3>
+    <p>NovaHope ($NVHP) es una memecoin con propósito social y emocional. Su objetivo es representar a todas las personas que han caído y desean levantarse. Las ayudas se financian solo con la compra del token, sin aceptar donaciones.</p>
+  </section>
 
-    <section id="tokenomics">
-        <h2>Tokenomics</h2>
-        <p>Total Supply: 1,000,000,000,000,000<br>
-        Network: Binance Smart Chain (BSC)<br>
-        Symbol: $NVHP</p>
-    </section>
+  <section id="impact">
+    <h3>Impacto Real</h3>
+    <ul>
+      <li>✔ Ayuda a niños esperando operaciones</li>
+      <li>✔ Obras reales: pozos de agua, salud, alimentos</li>
+      <li>✔ Apoyo directo, sin intermediarios</li>
+    </ul>
+  </section>
 
-    <section id="contract">
-        <h2>Smart Contract</h2>
-        <p>0x7FCC0B02483BAcbDfba1f6eb1EE227e711A345c</p>
-        <button class="btn">Buy in Presale</button>
-    </section>
+  <section id="contract">
+    <h3>Contrato Oficial</h3>
+    <p><strong>Address:</strong> 0x7FC0bB0243B3AcbDfbaf16ebdEe227e711A3e45c</p>
+    <a href="https://bscscan.com/token/0x7FC0bB0243B3AcbDfbaf16ebdEe227e711A3e45c" target="_blank">Ver en BscScan</a>
+  </section>
 
-    <section id="impact">
-        <h2>Impacto Real</h2>
-        <p>Coming soon: Real actions to help people in need — funded by NovaHope, not donations.</p>
-    </section>
+  <section id="social">
+    <h3>Redes Oficiales</h3>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/novahopeproject" target="_blank"><img src="assets/instagram.png" alt="Instagram" /></a>
+      <a href="https://twitter.com/Novahopeproject" target="_blank"><img src="assets/x.png" alt="X" /></a>
+      <a href="https://www.tiktok.com/@novahopeofficial" target="_blank"><img src="assets/tiktok.png" alt="TikTok" /></a>
+      <a href="https://t.me/novahopecommunity" target="_blank"><img src="assets/telegram.png" alt="Telegram Grupo" /></a>
+      <a href="https://t.me/novahopetoken" target="_blank"><img src="assets/telegram.png" alt="Telegram Canal" /></a>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="social-icons">
-            <a href="https://t.me/novahope" target="_blank"><img src="telegram.png" alt="Telegram"></a>
-            <a href="https://twitter.com/novahope" target="_blank"><img src="twitter.png" alt="Twitter"></a>
-            <a href="https://instagram.com/novahope" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-        </div>
-    </section>
-
-    <footer>
-        &copy; 2025 NovaHope. All rights reserved.
-    </footer>
+  <footer>
+    <p>&copy; 2025 NovaHope. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
